@@ -12,6 +12,7 @@ public class Subject {
     private String subjectCode;
     private String department;
     private Integer totalLectures = 10;
+    @Column(name = "study_year")
     private String year;
     private String semester;
     private String attendence; // ObjectId string, kept the typo in the name intentionally to match nodejs model

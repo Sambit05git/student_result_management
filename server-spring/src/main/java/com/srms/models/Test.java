@@ -12,6 +12,7 @@ public class Test {
     private String subjectCode;
     private String department;
     private Integer totalMarks = 10;
+    @Column(name = "study_year")
     private String year;
     private String semester;
     private String division;

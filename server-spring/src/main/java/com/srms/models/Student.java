@@ -14,6 +14,7 @@ public class Student {
     private String email;
     private String avatar;
     private String password;
+    @Column(name = "study_year")
     private String year;
     private String semester;
     @ElementCollection
