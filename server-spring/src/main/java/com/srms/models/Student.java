@@ -1,13 +1,14 @@
 package com.srms.models;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import jakarta.persistence.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
-@Document(collection = "students")
+@Entity
 public class Student {
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String name;
     private String email;
@@ -15,6 +16,7 @@ public class Student {
     private String password;
     private String year;
     private String semester;
+    @ElementCollection
     private List<String> subjects = new ArrayList<>(); // ObjectId strings
     private String username;
     private String registrationNumber;

@@ -1,11 +1,12 @@
 package com.srms.models;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import jakarta.persistence.*;
 
-@Document(collection = "notices")
+
+@Entity
 public class Notice {
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String topic;
     private String date;

@@ -1,11 +1,12 @@
 package com.srms.models;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import jakarta.persistence.*;
 
-@Document(collection = "departments")
+
+@Entity
 public class Department {
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String department;
     private String departmentCode;
