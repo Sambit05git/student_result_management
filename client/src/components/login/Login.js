@@ -5,7 +5,7 @@ const Login = () => {
     <div
       className="h-screen w-screen backdrop-blur-md flex  justify-center"
       style={{
-        backgroundImage: `url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSleJGmPdHoDkvOkOPL3YmtGf5aOb6mui1hVg&s")`,
+        backgroundImage: `url("https://www.hindustantimes.com/ht-img/img/2025/10/17/1200x1600/KIIT_Arial_photo_1760668729662_1760668738200_1760669598086.jpg")`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
