@@ -22,7 +22,7 @@ public class SrmsApplication {
 			if (adminRepository.count() == 0) {
 				Admin admin = new Admin();
 				admin.setUsername("admin");
-				admin.setPassword(passwordEncoder.encode("admin"));
+				admin.setPassword(passwordEncoder.encode("Admin@123"));
 				admin.setName("Super Admin");
 				admin.setEmail("admin@srms.com");
 				admin.setContactNumber(9999999999L);
