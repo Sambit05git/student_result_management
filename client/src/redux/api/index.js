@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const API = axios.create({ baseURL: process.env.REACT_APP_SERVER_URL });
 // IMPORTANT: Change the fallback URL to your actual Render URL if you aren't using Vercel Environment Variables
-const API = axios.create({ baseURL: process.env.REACT_APP_API_URL || "https://srms-backend-YOUR-URL.onrender.com" });
+const API = axios.create({ baseURL: process.env.REACT_APP_API_URL || "https://student-result-management-2-nsjg.onrender.com" });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("user")) {
