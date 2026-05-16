@@ -5,7 +5,7 @@ const Login = () => {
     <div
       className="h-screen w-screen backdrop-blur-md flex  justify-center"
       style={{
-        backgroundImage: `url("https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")`,
+        backgroundImage: `url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSleJGmPdHoDkvOkOPL3YmtGf5aOb6mui1hVg&s")`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
